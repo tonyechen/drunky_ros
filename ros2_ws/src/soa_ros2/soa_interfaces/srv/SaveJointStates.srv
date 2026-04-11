@@ -1,4 +1,0 @@
-string csv_path   # Path to CSV file to append joint states; if empty, states are not saved
----
-bool success
-sensor_msgs/JointState joint_states
