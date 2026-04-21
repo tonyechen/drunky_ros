@@ -1,6 +1,13 @@
 ### Launch soa_bringup
 ros2 launch soa_bringup soa_bringup.launch.py leader:=true display:=true
 
+### Launch `yolo_ros` with only detection
+```
+ros2 launch yolo_bringup yolo.launch.py \
+  model:=/home/ubuntu/techin517/alcohol_detection_model/run/weights/best.pt \
+  input_image_topic:=/static_camera/overhead_cam/color/image_raw
+``
+
 ### Launch `yolo_ros` with depth detection
 ```
 ros2 launch yolo_bringup yolo.launch.py \
