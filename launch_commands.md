@@ -40,3 +40,15 @@ ros2 launch rosetta rosetta_client_launch.py   contract_path:=/home/ubuntu/techi
 ```
 ros2 action send_goal /run_policy   rosetta_interfaces/action/RunPolicy "{prompt: 'grab and pour'}"
 ```
+
+# Pose Estimation
+Right Arm hand eye calibration
+``` 
+ros2 run tf2_ros static_transform_publisher \
+  --x 0.0935 --y 0.0592 --z 0.1496 \
+  --qx 0.662207 --qy -0.632907 --qz 0.274503 --qw -0.292503 \
+  --frame-id follower/base_link \
+  --child-frame-id overhead_camoverhead_cam_color_optical_frame
+```
+
+The camera tf transform is not right. are you sure you are using the calibration we gave you? std_srvs.srv.Trigger_Response(success=True, message='Current estimate: tx, ty, tz, qx, qy, qz, qw: [0.0935, 0.0592, 0.1496, 0.6622, -0.6329, 0.2745, -0.2925] as euler: translation: 0.0935, 0.0592, 0.1496   rpy: -2.3161, 0.0066, -1.5227')
