@@ -42,13 +42,27 @@ ros2 action send_goal /run_policy   rosetta_interfaces/action/RunPolicy "{prompt
 ```
 
 # Pose Estimation
-Right Arm hand eye calibration
-``` 
+Right Arm hand-eye calibration.
+
+Values are the composed `base_link → camera URDF root` transform (hand-eye
+calibration result + the Realsense's internal `color_optical → cam_link`
+offset). Publishing to the camera URDF root (which has no other parent)
+avoids the TF conflict with the Realsense's internal chain.
+
+### With soa_moveit_bringup (no namespace prefix → parent is `base_link`):
+```
 ros2 run tf2_ros static_transform_publisher \
-  --x 0.0935 --y 0.0592 --z 0.1496 \
-  --qx 0.662207 --qy -0.632907 --qz 0.274503 --qw -0.292503 \
-  --frame-id follower/base_link \
-  --child-frame-id overhead_camoverhead_cam_color_optical_frame
+  --x 0.044184 --y 0.168245 --z 0.332111 \
+  --qx -0.004642 --qy 0.363628 --qz 0.009791 --qw 0.931481 \
+  --frame-id base_link \
+  --child-frame-id overhead_camoverhead_cam_overhead_cam_link
 ```
 
-The camera tf transform is not right. are you sure you are using the calibration we gave you? std_srvs.srv.Trigger_Response(success=True, message='Current estimate: tx, ty, tz, qx, qy, qz, qw: [0.0935, 0.0592, 0.1496, 0.6622, -0.6329, 0.2745, -0.2925] as euler: translation: 0.0935, 0.0592, 0.1496   rpy: -2.3161, 0.0066, -1.5227')
+### With soa_bringup (frames are namespaced under `follower/`):
+```
+ros2 run tf2_ros static_transform_publisher \
+  --x 0.044184 --y 0.168245 --z 0.332111 \
+  --qx -0.004642 --qy 0.363628 --qz 0.009791 --qw 0.931481 \
+  --frame-id follower/base_link \
+  --child-frame-id overhead_camoverhead_cam_overhead_cam_link
+```
