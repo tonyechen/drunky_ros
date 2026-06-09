@@ -1,0 +1,481 @@
+trial_no,state_position,arm,drink,result,time_s,failure_mode,notes
+1,top-left,right,tequila,success,64,,
+2,top-left,right,tequila,success,66,,
+3,top-left,right,tequila,success,88,,
+4,top-left,right,tequila,success,79,,
+5,top-left,right,tequila,success,62,,
+6,top-left,right,tequila,success,57,,
+7,top-left,right,tequila,failure,24,grasp miss/tip,gripper failed to seat; bottle nudged
+8,top-left,right,tequila,success,79,,
+9,top-left,right,tequila,failure,18,camera dropout,wrist camera stopped streaming
+10,top-left,right,tequila,success,62,,
+11,top-left,right,vodka,success,67,,
+12,top-left,right,vodka,success,71,,
+13,top-left,right,vodka,success,61,,
+14,top-left,right,vodka,success,69,,
+15,top-left,right,vodka,success,75,,
+16,top-left,right,vodka,failure,20,detection/alignment,bottle not detected / lost at close range
+17,top-left,right,vodka,failure,11,camera dropout,wrist camera stopped streaming
+18,top-left,right,vodka,success,64,,
+19,top-left,right,vodka,success,70,,
+20,top-left,right,vodka,success,72,,
+21,top-left,right,whiskey,success,57,,
+22,top-left,right,whiskey,success,61,,
+23,top-left,right,whiskey,success,70,,
+24,top-left,right,whiskey,success,66,,
+25,top-left,right,whiskey,success,65,,
+26,top-left,right,whiskey,failure,26,grasp miss/tip,gripper failed to seat; bottle nudged
+27,top-left,right,whiskey,success,69,,
+28,top-left,right,whiskey,failure,48,pour/toss execution,arm lagged the toss trajectory under load
+29,top-left,right,whiskey,success,70,,
+30,top-left,right,whiskey,success,64,,
+31,top-left,right,gin,failure,32,grasp miss/tip,gripper failed to seat; bottle nudged
+32,top-left,right,gin,success,76,,
+33,top-left,right,gin,failure,118,planning/timeout,MoveIt could not plan / exceeded 4 min
+34,top-left,right,gin,success,73,,
+35,top-left,right,gin,success,61,,
+36,top-left,right,gin,success,77,,
+37,top-left,right,gin,failure,25,grasp miss/tip,gripper failed to seat; bottle nudged
+38,top-left,right,gin,success,63,,
+39,top-left,right,gin,success,80,,
+40,top-left,right,gin,success,77,,
+41,top-middle,right,tequila,success,54,,
+42,top-middle,right,tequila,success,66,,
+43,top-middle,right,tequila,success,70,,
+44,top-middle,right,tequila,success,47,,
+45,top-middle,right,tequila,failure,56,pour/toss execution,arm lagged the toss trajectory under load
+46,top-middle,right,tequila,success,52,,
+47,top-middle,right,tequila,success,69,,
+48,top-middle,right,tequila,success,78,,
+49,top-middle,right,tequila,success,72,,
+50,top-middle,right,tequila,failure,21,detection/alignment,bottle not detected / lost at close range
+51,top-middle,right,vodka,success,67,,
+52,top-middle,right,vodka,failure,97,planning/timeout,MoveIt could not plan / exceeded 4 min
+53,top-middle,right,vodka,success,74,,
+54,top-middle,right,vodka,success,66,,
+55,top-middle,right,vodka,success,69,,
+56,top-middle,right,vodka,success,54,,
+57,top-middle,right,vodka,failure,56,pour/toss execution,arm lagged the toss trajectory under load
+58,top-middle,right,vodka,success,69,,
+59,top-middle,right,vodka,success,72,,
+60,top-middle,right,vodka,success,75,,
+61,top-middle,right,whiskey,success,74,,
+62,top-middle,right,whiskey,failure,25,grasp miss/tip,gripper failed to seat; bottle nudged
+63,top-middle,right,whiskey,success,59,,
+64,top-middle,right,whiskey,success,77,,
+65,top-middle,right,whiskey,success,74,,
+66,top-middle,right,whiskey,success,70,,
+67,top-middle,right,whiskey,success,77,,
+68,top-middle,right,whiskey,success,60,,
+69,top-middle,right,whiskey,success,71,,
+70,top-middle,right,whiskey,failure,28,detection/alignment,bottle not detected / lost at close range
+71,top-middle,right,gin,success,58,,
+72,top-middle,right,gin,success,75,,
+73,top-middle,right,gin,success,64,,
+74,top-middle,right,gin,success,67,,
+75,top-middle,right,gin,success,83,,
+76,top-middle,right,gin,success,68,,
+77,top-middle,right,gin,success,66,,
+78,top-middle,right,gin,failure,50,pour/toss execution,arm lagged the toss trajectory under load
+79,top-middle,right,gin,failure,26,detection/alignment,bottle not detected / lost at close range
+80,top-middle,right,gin,failure,28,detection/alignment,bottle not detected / lost at close range
+81,top-right,right,tequila,success,58,,
+82,top-right,right,tequila,failure,22,detection/alignment,bottle not detected / lost at close range
+83,top-right,right,tequila,failure,118,planning/timeout,MoveIt could not plan / exceeded 4 min
+84,top-right,right,tequila,success,77,,
+85,top-right,right,tequila,success,62,,
+86,top-right,right,tequila,success,70,,
+87,top-right,right,tequila,success,64,,
+88,top-right,right,tequila,failure,40,grasp miss/tip,gripper failed to seat; bottle nudged
+89,top-right,right,tequila,success,59,,
+90,top-right,right,tequila,success,57,,
+91,top-right,right,vodka,success,64,,
+92,top-right,right,vodka,success,62,,
+93,top-right,right,vodka,success,71,,
+94,top-right,right,vodka,success,60,,
+95,top-right,right,vodka,success,50,,
+96,top-right,right,vodka,success,74,,
+97,top-right,right,vodka,success,48,,
+98,top-right,right,vodka,success,69,,
+99,top-right,right,vodka,failure,19,detection/alignment,bottle not detected / lost at close range
+100,top-right,right,vodka,failure,39,grasp miss/tip,gripper failed to seat; bottle nudged
+101,top-right,right,whiskey,failure,26,detection/alignment,bottle not detected / lost at close range
+102,top-right,right,whiskey,failure,31,grasp miss/tip,gripper failed to seat; bottle nudged
+103,top-right,right,whiskey,success,66,,
+104,top-right,right,whiskey,success,74,,
+105,top-right,right,whiskey,success,63,,
+106,top-right,right,whiskey,success,75,,
+107,top-right,right,whiskey,success,87,,
+108,top-right,right,whiskey,success,62,,
+109,top-right,right,whiskey,success,72,,
+110,top-right,right,whiskey,failure,20,detection/alignment,bottle not detected / lost at close range
+111,top-right,right,gin,failure,52,pour/toss execution,arm lagged the toss trajectory under load
+112,top-right,right,gin,failure,24,grasp miss/tip,gripper failed to seat; bottle nudged
+113,top-right,right,gin,success,76,,
+114,top-right,right,gin,failure,21,detection/alignment,bottle not detected / lost at close range
+115,top-right,right,gin,success,74,,
+116,top-right,right,gin,success,60,,
+117,top-right,right,gin,success,70,,
+118,top-right,right,gin,success,59,,
+119,top-right,right,gin,failure,17,detection/alignment,bottle not detected / lost at close range
+120,top-right,right,gin,success,70,,
+121,bottom-left,right,tequila,success,58,,
+122,bottom-left,right,tequila,failure,53,pour/toss execution,arm lagged the toss trajectory under load
+123,bottom-left,right,tequila,success,71,,
+124,bottom-left,right,tequila,failure,9,camera dropout,wrist camera stopped streaming
+125,bottom-left,right,tequila,failure,52,pour/toss execution,arm lagged the toss trajectory under load
+126,bottom-left,right,tequila,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+127,bottom-left,right,tequila,success,60,,
+128,bottom-left,right,tequila,success,60,,
+129,bottom-left,right,tequila,success,72,,
+130,bottom-left,right,tequila,failure,35,grasp miss/tip,gripper failed to seat; bottle nudged
+131,bottom-left,right,vodka,success,67,,
+132,bottom-left,right,vodka,success,53,,
+133,bottom-left,right,vodka,failure,19,detection/alignment,bottle not detected / lost at close range
+134,bottom-left,right,vodka,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+135,bottom-left,right,vodka,success,70,,
+136,bottom-left,right,vodka,success,63,,
+137,bottom-left,right,vodka,success,70,,
+138,bottom-left,right,vodka,failure,34,grasp miss/tip,gripper failed to seat; bottle nudged
+139,bottom-left,right,vodka,failure,28,detection/alignment,bottle not detected / lost at close range
+140,bottom-left,right,vodka,success,75,,
+141,bottom-left,right,whiskey,failure,27,detection/alignment,bottle not detected / lost at close range
+142,bottom-left,right,whiskey,success,76,,
+143,bottom-left,right,whiskey,failure,28,detection/alignment,bottle not detected / lost at close range
+144,bottom-left,right,whiskey,success,50,,
+145,bottom-left,right,whiskey,success,65,,
+146,bottom-left,right,whiskey,success,53,,
+147,bottom-left,right,whiskey,success,61,,
+148,bottom-left,right,whiskey,success,81,,
+149,bottom-left,right,whiskey,success,62,,
+150,bottom-left,right,whiskey,failure,19,camera dropout,wrist camera stopped streaming
+151,bottom-left,right,gin,failure,19,camera dropout,wrist camera stopped streaming
+152,bottom-left,right,gin,failure,19,detection/alignment,bottle not detected / lost at close range
+153,bottom-left,right,gin,failure,15,detection/alignment,bottle not detected / lost at close range
+154,bottom-left,right,gin,success,75,,
+155,bottom-left,right,gin,success,66,,
+156,bottom-left,right,gin,failure,16,detection/alignment,bottle not detected / lost at close range
+157,bottom-left,right,gin,success,70,,
+158,bottom-left,right,gin,success,67,,
+159,bottom-left,right,gin,success,59,,
+160,bottom-left,right,gin,success,67,,
+161,bottom-middle,right,tequila,success,75,,
+162,bottom-middle,right,tequila,failure,19,detection/alignment,bottle not detected / lost at close range
+163,bottom-middle,right,tequila,failure,27,detection/alignment,bottle not detected / lost at close range
+164,bottom-middle,right,tequila,success,62,,
+165,bottom-middle,right,tequila,success,61,,
+166,bottom-middle,right,tequila,success,63,,
+167,bottom-middle,right,tequila,success,71,,
+168,bottom-middle,right,tequila,success,69,,
+169,bottom-middle,right,tequila,failure,21,detection/alignment,bottle not detected / lost at close range
+170,bottom-middle,right,tequila,success,78,,
+171,bottom-middle,right,vodka,success,62,,
+172,bottom-middle,right,vodka,success,71,,
+173,bottom-middle,right,vodka,success,62,,
+174,bottom-middle,right,vodka,success,62,,
+175,bottom-middle,right,vodka,success,61,,
+176,bottom-middle,right,vodka,success,67,,
+177,bottom-middle,right,vodka,success,79,,
+178,bottom-middle,right,vodka,failure,18,detection/alignment,bottle not detected / lost at close range
+179,bottom-middle,right,vodka,failure,21,detection/alignment,bottle not detected / lost at close range
+180,bottom-middle,right,vodka,success,71,,
+181,bottom-middle,right,whiskey,success,73,,
+182,bottom-middle,right,whiskey,success,54,,
+183,bottom-middle,right,whiskey,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+184,bottom-middle,right,whiskey,success,65,,
+185,bottom-middle,right,whiskey,failure,27,detection/alignment,bottle not detected / lost at close range
+186,bottom-middle,right,whiskey,failure,14,detection/alignment,bottle not detected / lost at close range
+187,bottom-middle,right,whiskey,success,65,,
+188,bottom-middle,right,whiskey,success,64,,
+189,bottom-middle,right,whiskey,success,62,,
+190,bottom-middle,right,whiskey,success,68,,
+191,bottom-middle,right,gin,success,58,,
+192,bottom-middle,right,gin,success,71,,
+193,bottom-middle,right,gin,success,64,,
+194,bottom-middle,right,gin,success,57,,
+195,bottom-middle,right,gin,success,84,,
+196,bottom-middle,right,gin,failure,35,grasp miss/tip,gripper failed to seat; bottle nudged
+197,bottom-middle,right,gin,success,72,,
+198,bottom-middle,right,gin,failure,36,grasp miss/tip,gripper failed to seat; bottle nudged
+199,bottom-middle,right,gin,failure,21,detection/alignment,bottle not detected / lost at close range
+200,bottom-middle,right,gin,failure,27,detection/alignment,bottle not detected / lost at close range
+201,bottom-right,right,tequila,success,76,,
+202,bottom-right,right,tequila,success,70,,
+203,bottom-right,right,tequila,success,74,,
+204,bottom-right,right,tequila,success,69,,
+205,bottom-right,right,tequila,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+206,bottom-right,right,tequila,success,81,,
+207,bottom-right,right,tequila,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+208,bottom-right,right,tequila,success,70,,
+209,bottom-right,right,tequila,failure,24,grasp miss/tip,gripper failed to seat; bottle nudged
+210,bottom-right,right,tequila,failure,35,grasp miss/tip,gripper failed to seat; bottle nudged
+211,bottom-right,right,vodka,success,80,,
+212,bottom-right,right,vodka,failure,26,detection/alignment,bottle not detected / lost at close range
+213,bottom-right,right,vodka,success,67,,
+214,bottom-right,right,vodka,success,73,,
+215,bottom-right,right,vodka,failure,20,detection/alignment,bottle not detected / lost at close range
+216,bottom-right,right,vodka,failure,19,detection/alignment,bottle not detected / lost at close range
+217,bottom-right,right,vodka,success,65,,
+218,bottom-right,right,vodka,success,85,,
+219,bottom-right,right,vodka,failure,24,detection/alignment,bottle not detected / lost at close range
+220,bottom-right,right,vodka,success,59,,
+221,bottom-right,right,whiskey,success,81,,
+222,bottom-right,right,whiskey,failure,22,detection/alignment,bottle not detected / lost at close range
+223,bottom-right,right,whiskey,success,69,,
+224,bottom-right,right,whiskey,failure,27,detection/alignment,bottle not detected / lost at close range
+225,bottom-right,right,whiskey,success,67,,
+226,bottom-right,right,whiskey,success,58,,
+227,bottom-right,right,whiskey,success,70,,
+228,bottom-right,right,whiskey,failure,12,camera dropout,wrist camera stopped streaming
+229,bottom-right,right,whiskey,success,67,,
+230,bottom-right,right,whiskey,failure,20,detection/alignment,bottle not detected / lost at close range
+231,bottom-right,right,gin,failure,25,detection/alignment,bottle not detected / lost at close range
+232,bottom-right,right,gin,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+233,bottom-right,right,gin,success,86,,
+234,bottom-right,right,gin,success,78,,
+235,bottom-right,right,gin,success,65,,
+236,bottom-right,right,gin,success,88,,
+237,bottom-right,right,gin,success,64,,
+238,bottom-right,right,gin,success,70,,
+239,bottom-right,right,gin,failure,113,planning/timeout,MoveIt could not plan / exceeded 4 min
+240,bottom-right,right,gin,failure,15,detection/alignment,bottle not detected / lost at close range
+241,top-left,left,tonic_water,failure,60,pour/toss execution,arm lagged the toss trajectory under load
+242,top-left,left,tonic_water,success,64,,
+243,top-left,left,tonic_water,success,63,,
+244,top-left,left,tonic_water,success,63,,
+245,top-left,left,tonic_water,success,79,,
+246,top-left,left,tonic_water,success,53,,
+247,top-left,left,tonic_water,success,67,,
+248,top-left,left,tonic_water,success,72,,
+249,top-left,left,tonic_water,success,72,,
+250,top-left,left,tonic_water,failure,53,pour/toss execution,arm lagged the toss trajectory under load
+251,top-left,left,ginger_beer,failure,27,grasp miss/tip,gripper failed to seat; bottle nudged
+252,top-left,left,ginger_beer,success,76,,
+253,top-left,left,ginger_beer,success,65,,
+254,top-left,left,ginger_beer,success,71,,
+255,top-left,left,ginger_beer,success,62,,
+256,top-left,left,ginger_beer,failure,50,pour/toss execution,arm lagged the toss trajectory under load
+257,top-left,left,ginger_beer,failure,54,pour/toss execution,arm lagged the toss trajectory under load
+258,top-left,left,ginger_beer,success,54,,
+259,top-left,left,ginger_beer,success,71,,
+260,top-left,left,ginger_beer,success,75,,
+261,top-left,left,orange_juice,failure,24,detection/alignment,bottle not detected / lost at close range
+262,top-left,left,orange_juice,success,65,,
+263,top-left,left,orange_juice,success,59,,
+264,top-left,left,orange_juice,success,64,,
+265,top-left,left,orange_juice,failure,8,camera dropout,wrist camera stopped streaming
+266,top-left,left,orange_juice,success,65,,
+267,top-left,left,orange_juice,success,64,,
+268,top-left,left,orange_juice,success,63,,
+269,top-left,left,orange_juice,failure,113,planning/timeout,MoveIt could not plan / exceeded 4 min
+270,top-left,left,orange_juice,success,56,,
+271,top-left,left,coke,success,63,,
+272,top-left,left,coke,failure,115,planning/timeout,MoveIt could not plan / exceeded 4 min
+273,top-left,left,coke,success,72,,
+274,top-left,left,coke,success,55,,
+275,top-left,left,coke,failure,28,detection/alignment,bottle not detected / lost at close range
+276,top-left,left,coke,success,64,,
+277,top-left,left,coke,success,60,,
+278,top-left,left,coke,failure,34,grasp miss/tip,gripper failed to seat; bottle nudged
+279,top-left,left,coke,success,68,,
+280,top-left,left,coke,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+281,top-middle,left,tonic_water,success,73,,
+282,top-middle,left,tonic_water,success,68,,
+283,top-middle,left,tonic_water,success,80,,
+284,top-middle,left,tonic_water,success,54,,
+285,top-middle,left,tonic_water,success,60,,
+286,top-middle,left,tonic_water,failure,33,grasp miss/tip,gripper failed to seat; bottle nudged
+287,top-middle,left,tonic_water,success,76,,
+288,top-middle,left,tonic_water,failure,24,detection/alignment,bottle not detected / lost at close range
+289,top-middle,left,tonic_water,success,64,,
+290,top-middle,left,tonic_water,success,66,,
+291,top-middle,left,ginger_beer,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+292,top-middle,left,ginger_beer,success,73,,
+293,top-middle,left,ginger_beer,success,69,,
+294,top-middle,left,ginger_beer,success,71,,
+295,top-middle,left,ginger_beer,failure,19,detection/alignment,bottle not detected / lost at close range
+296,top-middle,left,ginger_beer,success,68,,
+297,top-middle,left,ginger_beer,success,79,,
+298,top-middle,left,ginger_beer,success,72,,
+299,top-middle,left,ginger_beer,success,64,,
+300,top-middle,left,ginger_beer,failure,14,detection/alignment,bottle not detected / lost at close range
+301,top-middle,left,orange_juice,success,53,,
+302,top-middle,left,orange_juice,success,61,,
+303,top-middle,left,orange_juice,success,85,,
+304,top-middle,left,orange_juice,success,76,,
+305,top-middle,left,orange_juice,success,51,,
+306,top-middle,left,orange_juice,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+307,top-middle,left,orange_juice,failure,108,planning/timeout,MoveIt could not plan / exceeded 4 min
+308,top-middle,left,orange_juice,failure,97,planning/timeout,MoveIt could not plan / exceeded 4 min
+309,top-middle,left,orange_juice,success,62,,
+310,top-middle,left,orange_juice,failure,20,detection/alignment,bottle not detected / lost at close range
+311,top-middle,left,coke,success,61,,
+312,top-middle,left,coke,success,59,,
+313,top-middle,left,coke,success,63,,
+314,top-middle,left,coke,failure,11,camera dropout,wrist camera stopped streaming
+315,top-middle,left,coke,success,64,,
+316,top-middle,left,coke,failure,32,grasp miss/tip,gripper failed to seat; bottle nudged
+317,top-middle,left,coke,success,64,,
+318,top-middle,left,coke,success,63,,
+319,top-middle,left,coke,success,62,,
+320,top-middle,left,coke,success,84,,
+321,top-right,left,tonic_water,success,73,,
+322,top-right,left,tonic_water,failure,61,pour/toss execution,arm lagged the toss trajectory under load
+323,top-right,left,tonic_water,failure,28,detection/alignment,bottle not detected / lost at close range
+324,top-right,left,tonic_water,success,82,,
+325,top-right,left,tonic_water,success,77,,
+326,top-right,left,tonic_water,success,85,,
+327,top-right,left,tonic_water,success,60,,
+328,top-right,left,tonic_water,success,71,,
+329,top-right,left,tonic_water,failure,38,grasp miss/tip,gripper failed to seat; bottle nudged
+330,top-right,left,tonic_water,success,75,,
+331,top-right,left,ginger_beer,success,69,,
+332,top-right,left,ginger_beer,success,84,,
+333,top-right,left,ginger_beer,success,74,,
+334,top-right,left,ginger_beer,success,60,,
+335,top-right,left,ginger_beer,failure,51,pour/toss execution,arm lagged the toss trajectory under load
+336,top-right,left,ginger_beer,failure,34,grasp miss/tip,gripper failed to seat; bottle nudged
+337,top-right,left,ginger_beer,success,66,,
+338,top-right,left,ginger_beer,failure,18,detection/alignment,bottle not detected / lost at close range
+339,top-right,left,ginger_beer,success,74,,
+340,top-right,left,ginger_beer,success,73,,
+341,top-right,left,orange_juice,failure,14,camera dropout,wrist camera stopped streaming
+342,top-right,left,orange_juice,success,59,,
+343,top-right,left,orange_juice,success,57,,
+344,top-right,left,orange_juice,success,79,,
+345,top-right,left,orange_juice,failure,39,grasp miss/tip,gripper failed to seat; bottle nudged
+346,top-right,left,orange_juice,success,61,,
+347,top-right,left,orange_juice,failure,52,pour/toss execution,arm lagged the toss trajectory under load
+348,top-right,left,orange_juice,failure,63,pour/toss execution,arm lagged the toss trajectory under load
+349,top-right,left,orange_juice,success,74,,
+350,top-right,left,orange_juice,success,80,,
+351,top-right,left,coke,success,68,,
+352,top-right,left,coke,success,82,,
+353,top-right,left,coke,success,68,,
+354,top-right,left,coke,failure,32,grasp miss/tip,gripper failed to seat; bottle nudged
+355,top-right,left,coke,success,66,,
+356,top-right,left,coke,failure,17,detection/alignment,bottle not detected / lost at close range
+357,top-right,left,coke,failure,27,grasp miss/tip,gripper failed to seat; bottle nudged
+358,top-right,left,coke,success,69,,
+359,top-right,left,coke,failure,35,grasp miss/tip,gripper failed to seat; bottle nudged
+360,top-right,left,coke,failure,30,grasp miss/tip,gripper failed to seat; bottle nudged
+361,bottom-left,left,tonic_water,success,64,,
+362,bottom-left,left,tonic_water,success,66,,
+363,bottom-left,left,tonic_water,failure,18,detection/alignment,bottle not detected / lost at close range
+364,bottom-left,left,tonic_water,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+365,bottom-left,left,tonic_water,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+366,bottom-left,left,tonic_water,success,61,,
+367,bottom-left,left,tonic_water,success,78,,
+368,bottom-left,left,tonic_water,failure,16,detection/alignment,bottle not detected / lost at close range
+369,bottom-left,left,tonic_water,failure,21,detection/alignment,bottle not detected / lost at close range
+370,bottom-left,left,tonic_water,success,60,,
+371,bottom-left,left,ginger_beer,success,80,,
+372,bottom-left,left,ginger_beer,failure,17,detection/alignment,bottle not detected / lost at close range
+373,bottom-left,left,ginger_beer,success,64,,
+374,bottom-left,left,ginger_beer,failure,15,detection/alignment,bottle not detected / lost at close range
+375,bottom-left,left,ginger_beer,success,85,,
+376,bottom-left,left,ginger_beer,failure,30,grasp miss/tip,gripper failed to seat; bottle nudged
+377,bottom-left,left,ginger_beer,failure,17,detection/alignment,bottle not detected / lost at close range
+378,bottom-left,left,ginger_beer,success,55,,
+379,bottom-left,left,ginger_beer,success,64,,
+380,bottom-left,left,ginger_beer,success,75,,
+381,bottom-left,left,orange_juice,success,86,,
+382,bottom-left,left,orange_juice,success,62,,
+383,bottom-left,left,orange_juice,failure,29,grasp miss/tip,gripper failed to seat; bottle nudged
+384,bottom-left,left,orange_juice,failure,51,pour/toss execution,arm lagged the toss trajectory under load
+385,bottom-left,left,orange_juice,success,80,,
+386,bottom-left,left,orange_juice,success,73,,
+387,bottom-left,left,orange_juice,failure,12,camera dropout,wrist camera stopped streaming
+388,bottom-left,left,orange_juice,failure,22,detection/alignment,bottle not detected / lost at close range
+389,bottom-left,left,orange_juice,failure,17,detection/alignment,bottle not detected / lost at close range
+390,bottom-left,left,orange_juice,success,68,,
+391,bottom-left,left,coke,failure,25,grasp miss/tip,gripper failed to seat; bottle nudged
+392,bottom-left,left,coke,failure,27,detection/alignment,bottle not detected / lost at close range
+393,bottom-left,left,coke,success,68,,
+394,bottom-left,left,coke,failure,19,detection/alignment,bottle not detected / lost at close range
+395,bottom-left,left,coke,failure,21,detection/alignment,bottle not detected / lost at close range
+396,bottom-left,left,coke,failure,28,detection/alignment,bottle not detected / lost at close range
+397,bottom-left,left,coke,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+398,bottom-left,left,coke,success,74,,
+399,bottom-left,left,coke,success,50,,
+400,bottom-left,left,coke,success,77,,
+401,bottom-middle,left,tonic_water,success,67,,
+402,bottom-middle,left,tonic_water,failure,24,grasp miss/tip,gripper failed to seat; bottle nudged
+403,bottom-middle,left,tonic_water,failure,28,detection/alignment,bottle not detected / lost at close range
+404,bottom-middle,left,tonic_water,failure,39,grasp miss/tip,gripper failed to seat; bottle nudged
+405,bottom-middle,left,tonic_water,success,85,,
+406,bottom-middle,left,tonic_water,failure,53,pour/toss execution,arm lagged the toss trajectory under load
+407,bottom-middle,left,tonic_water,success,72,,
+408,bottom-middle,left,tonic_water,success,73,,
+409,bottom-middle,left,tonic_water,success,86,,
+410,bottom-middle,left,tonic_water,failure,36,grasp miss/tip,gripper failed to seat; bottle nudged
+411,bottom-middle,left,ginger_beer,failure,28,grasp miss/tip,gripper failed to seat; bottle nudged
+412,bottom-middle,left,ginger_beer,success,62,,
+413,bottom-middle,left,ginger_beer,failure,30,grasp miss/tip,gripper failed to seat; bottle nudged
+414,bottom-middle,left,ginger_beer,failure,23,detection/alignment,bottle not detected / lost at close range
+415,bottom-middle,left,ginger_beer,success,55,,
+416,bottom-middle,left,ginger_beer,success,65,,
+417,bottom-middle,left,ginger_beer,failure,27,detection/alignment,bottle not detected / lost at close range
+418,bottom-middle,left,ginger_beer,success,59,,
+419,bottom-middle,left,ginger_beer,failure,20,detection/alignment,bottle not detected / lost at close range
+420,bottom-middle,left,ginger_beer,success,69,,
+421,bottom-middle,left,orange_juice,success,69,,
+422,bottom-middle,left,orange_juice,failure,57,pour/toss execution,arm lagged the toss trajectory under load
+423,bottom-middle,left,orange_juice,success,66,,
+424,bottom-middle,left,orange_juice,success,72,,
+425,bottom-middle,left,orange_juice,failure,16,detection/alignment,bottle not detected / lost at close range
+426,bottom-middle,left,orange_juice,failure,25,detection/alignment,bottle not detected / lost at close range
+427,bottom-middle,left,orange_juice,failure,34,grasp miss/tip,gripper failed to seat; bottle nudged
+428,bottom-middle,left,orange_juice,failure,22,detection/alignment,bottle not detected / lost at close range
+429,bottom-middle,left,orange_juice,failure,17,detection/alignment,bottle not detected / lost at close range
+430,bottom-middle,left,orange_juice,failure,23,detection/alignment,bottle not detected / lost at close range
+431,bottom-middle,left,coke,success,53,,
+432,bottom-middle,left,coke,failure,22,detection/alignment,bottle not detected / lost at close range
+433,bottom-middle,left,coke,failure,20,detection/alignment,bottle not detected / lost at close range
+434,bottom-middle,left,coke,failure,37,grasp miss/tip,gripper failed to seat; bottle nudged
+435,bottom-middle,left,coke,failure,39,grasp miss/tip,gripper failed to seat; bottle nudged
+436,bottom-middle,left,coke,failure,18,detection/alignment,bottle not detected / lost at close range
+437,bottom-middle,left,coke,failure,20,detection/alignment,bottle not detected / lost at close range
+438,bottom-middle,left,coke,failure,55,pour/toss execution,arm lagged the toss trajectory under load
+439,bottom-middle,left,coke,success,55,,
+440,bottom-middle,left,coke,failure,61,pour/toss execution,arm lagged the toss trajectory under load
+441,bottom-right,left,tonic_water,failure,118,planning/timeout,MoveIt could not plan / exceeded 4 min
+442,bottom-right,left,tonic_water,success,58,,
+443,bottom-right,left,tonic_water,failure,40,grasp miss/tip,gripper failed to seat; bottle nudged
+444,bottom-right,left,tonic_water,failure,55,pour/toss execution,arm lagged the toss trajectory under load
+445,bottom-right,left,tonic_water,success,55,,
+446,bottom-right,left,tonic_water,failure,22,detection/alignment,bottle not detected / lost at close range
+447,bottom-right,left,tonic_water,success,72,,
+448,bottom-right,left,tonic_water,failure,17,detection/alignment,bottle not detected / lost at close range
+449,bottom-right,left,tonic_water,success,57,,
+450,bottom-right,left,tonic_water,success,68,,
+451,bottom-right,left,ginger_beer,failure,49,pour/toss execution,arm lagged the toss trajectory under load
+452,bottom-right,left,ginger_beer,success,71,,
+453,bottom-right,left,ginger_beer,failure,38,grasp miss/tip,gripper failed to seat; bottle nudged
+454,bottom-right,left,ginger_beer,failure,25,detection/alignment,bottle not detected / lost at close range
+455,bottom-right,left,ginger_beer,success,57,,
+456,bottom-right,left,ginger_beer,failure,28,detection/alignment,bottle not detected / lost at close range
+457,bottom-right,left,ginger_beer,success,61,,
+458,bottom-right,left,ginger_beer,failure,28,detection/alignment,bottle not detected / lost at close range
+459,bottom-right,left,ginger_beer,success,70,,
+460,bottom-right,left,ginger_beer,success,60,,
+461,bottom-right,left,orange_juice,success,61,,
+462,bottom-right,left,orange_juice,failure,28,detection/alignment,bottle not detected / lost at close range
+463,bottom-right,left,orange_juice,failure,29,grasp miss/tip,gripper failed to seat; bottle nudged
+464,bottom-right,left,orange_juice,success,73,,
+465,bottom-right,left,orange_juice,failure,17,detection/alignment,bottle not detected / lost at close range
+466,bottom-right,left,orange_juice,failure,26,grasp miss/tip,gripper failed to seat; bottle nudged
+467,bottom-right,left,orange_juice,failure,15,detection/alignment,bottle not detected / lost at close range
+468,bottom-right,left,orange_juice,failure,30,grasp miss/tip,gripper failed to seat; bottle nudged
+469,bottom-right,left,orange_juice,success,78,,
+470,bottom-right,left,orange_juice,success,77,,
+471,bottom-right,left,coke,failure,15,detection/alignment,bottle not detected / lost at close range
+472,bottom-right,left,coke,failure,24,detection/alignment,bottle not detected / lost at close range
+473,bottom-right,left,coke,success,65,,
+474,bottom-right,left,coke,success,45,,
+475,bottom-right,left,coke,success,74,,
+476,bottom-right,left,coke,failure,50,pour/toss execution,arm lagged the toss trajectory under load
+477,bottom-right,left,coke,failure,27,grasp miss/tip,gripper failed to seat; bottle nudged
+478,bottom-right,left,coke,success,76,,
+479,bottom-right,left,coke,failure,31,grasp miss/tip,gripper failed to seat; bottle nudged
+480,bottom-right,left,coke,failure,27,grasp miss/tip,gripper failed to seat; bottle nudged
