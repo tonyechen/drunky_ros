@@ -25,3 +25,11 @@ BACK*
 logs
 lab_materials/
 docker/
+
+# Large media (hosted externally, linked from README) and build/run junk
+*.MOV
+*.mov
+*.mp4
+Cocktail.zip
+__pycache__/
+/log
